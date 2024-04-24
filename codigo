@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+   int idade;
+  cout << "Informe a idade";
+  cin >> idade;
+  
+  if (idade < 16) {
+      cout << "Menor de 16 não pode votar" << endl;
+  } else if (idade >= 16 && idade <=17){
+      cout << "De 16 a 17 o voto é facultativo" << endl;
+  } else if (idade >= 18 && idade <= 69){
+      cout << "De 18 a 69 anos o voto é obrigatório " << endl;
+      } else {
+      cout << "Maiores que 70 anos o voto é facultativo" << endl;
+  }
+
+
+}
